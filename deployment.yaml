@@ -39,7 +39,7 @@ spec:
     spec:
       containers:
         - name: spring
-          image: kristina212006/app:v61
+          image: kristina212006/app:latest
           ports:
             - containerPort: 8080
           env:
