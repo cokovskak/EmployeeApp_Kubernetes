@@ -20,20 +20,6 @@ data:
 ---
 
 apiVersion: v1
-kind: PersistentVolumeClaim
-metadata:
-  name: postgre-pvc
-  namespace: springapp
-spec:
-  storageClassName: local-path
-  accessModes:
-    - ReadWriteOnce
-  resources:
-    requests:
-      storage: 5Gi
-
----
-apiVersion: v1
 kind: Service
 metadata:
   name: postgre-service
