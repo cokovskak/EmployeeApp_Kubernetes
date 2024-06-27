@@ -50,7 +50,7 @@ spec:
     spec:
       containers:
         - name: postgre
-          image: kristina212006/postgre:v66
+          image: kristina212006/postgre:v67
           env:
             - name: POSTGRES_PASSWORD
               valueFrom:
